@@ -8,6 +8,8 @@ Greetings! This is a console application with a similar ruleset as **Mastermind*
 After the player attempts to enter a combination, a red plus ([red bold]+[/]) sign will be printed for every digit that is both correct and in the correct position, and a minus ([violet bold]-[/]) sign for every digeit that is correct but in the wrong position.
 The player has 10 attempts to guesss the number before getting a Game Over message.
 
+This solution took approximately 4 hours to implement, including debugging and stylizing.
+
 ### Implementation of digit verificaiton
 - Using a Dictionary, I was able to easily identify if there were correct digits within the guess
 - After populating the dictionary with the 4 digits as keys and the number of times the digit appears in the answer, i could then count how many times a correct digit would appear in the guess
